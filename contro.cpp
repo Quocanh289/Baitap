@@ -52,5 +52,25 @@ int main (){
 //cout << chan(a,n);
 
 //Bai 4
+    // bool timkiem(int *arr, int m){
+   // int n;
+  //  for( int i =0; i< m; i++){
+   // if( arr[i] ==n){
+    //    arr[i] =1;
+//}
+    // Bai 5: 
+    //Con tro tro den bien cuc bo nen khi het ham se huy 
+    // khai bao xau ki tu sai ""-> ' '
+    //Khi hàm kết thúc, vùng bộ nhớ của c sẽ được giải phóng. Trả về con trỏ tới vùng bộ nhớ đã giải phóng sẽ gây ra lỗi truy cập vùng bộ nhớ không hợp lệ.
+//Bai 7: 
+    // int count = 0;
+   // int len1 = strlen(str1);
+   // int len2 = strlen(str2);
 
+    // Tìm số lần xuất hiện của xâu thứ nhất trong xâu thứ hai
+   // for (int i = 0; i <= len2 - len1; ++i) {
+       // if (strncmp(str1, str2 + i, len1) == 0) {
+            //count++;
+      //  }
+   // }
 return 0;}
