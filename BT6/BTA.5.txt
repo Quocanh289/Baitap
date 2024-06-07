@@ -1,0 +1,4 @@
+//Bai 5:
+//a, 1 bien
+//b, Khong vi bien tham chieu khong co bo nho
+//c, Khong vi bien tham chieu tro den dau thi nhan bo nho cua bien nay
