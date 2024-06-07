@@ -1,0 +1,32 @@
+1, 
+#include <bits/stdc++.h>
+
+using namespace std;
+
+void SwapPointers(const char* x, const char* y)
+{
+   int len = strlen (x);
+   int len1 = strlen(y);
+   char * new1 = new char [len];
+   char * new2 = new char [len1];
+   strcpy(new1,x);
+   strcpy(new2,y);
+   char * temp = new1 ;
+   new1 = new2;
+   new2 = temp;
+   cout << new1 << " " << new2 ;
+   
+   
+}
+
+
+int main()
+{ 
+  const char* str1 = "hello";
+  const char* str2 = "world";
+  SwapPointers(str1,str2);
+ 
+
+   
+    return 0;
+}

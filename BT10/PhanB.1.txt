@@ -1,0 +1,26 @@
+Bai 1:
+#include <iostream>
+#include <bits/stdc++.h>
+
+using namespace std;
+char * concat( const char * str1, const char* str2)
+{
+    int len = strlen(str1);
+    int len1 = strlen(str2);
+    char * result = new char [ len + len1 + 1];
+    
+    strcat (result , str1);
+    strcat ( result, str2);
+    return result ;
+}
+
+int main()
+{ 
+    const char* str1 = "hello";
+    const char * str2 = "world";
+    
+    char * result  = concat (str1,str2);
+    cout << result ;
+   
+    return 0;
+}
